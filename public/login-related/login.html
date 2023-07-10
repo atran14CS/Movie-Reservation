@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Comme:wght@200&display=swap" rel="stylesheet">
+  <script src="login.js"></script>
+  <link rel="stylesheet" href="login.css">
+  <title>Sign In/Log In</title>
+</head>
+<body>
+  <a href="/index.html"><h1>Movie Rent!</h1></a>
+  <section id="login">
+    <form id="account-form">
+      <h2>Sign In Or Create An Account</h2>
+      <p>Username</p>
+      <input type="text" id="username" name="username" placeholder="username">
+      <p>Password</p>
+      <input type="text" id="password" name="Password" placeholder="passowrd">
+      <button id="submit-btn">Login</button>
+      <button id="new-acc">New account!</button>
+    </form>
+  </section>
+  <form id="new-account-form" class="hidden">
+    <p>username</p>
+    <input type="text" id="new-username" name="new-username" placeholder="new-username">
+    <p>Password</p>
+    <input type="text" id="new-password" name="new-password" placeholder="new-passowrd">
+    <button id="new-submit-btn">create</button>
+  </form>
+  <section id="liked-movies" class="hidden"></section>
+  <section id="reserved-movies" class="hidden"><h2>Reserved Movies</h2></section>
+</body>
+</html>

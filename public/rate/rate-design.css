@@ -1,0 +1,10 @@
+textarea {
+  width: 50%;
+  font-size: 12px;
+  height: 100px;
+}
+
+body {
+  background-image: url("../img/background.jpeg");
+  color: white;
+}

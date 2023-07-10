@@ -1,0 +1,81 @@
+[
+  {
+    "alt": "shawshank",
+    "movie": "Shawshank Redemption",
+    "rating": 9.3,
+    "synopsis": "Andy Dufresne (Tim Robbins) is sentenced to two consecutive life terms in prison for the murders of his wife and her lover and is sentenced to a tough prison. However, only Andy knows he didn't commit the crimes. While there, he forms a friendship with Red(Morgan Freeman), experiences brutality of prison life, adapts, helps the warden, etc., all in 19 years.",
+      "actors":["Morgan Freeman, Tim Robins"],
+      "director":"Frank Darabont",
+      "budget": "25Million",
+      "boxoffice": "73.3Million"
+  },
+  {
+    "alt": "godfather",
+    "movie": "The Godfather",
+    "rating": 9.2,
+    "synopsis": "Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.",
+    "actors": ["Marlon Brando", "Al Pacino"],
+    "director": "Francis Ford Coppola",
+    "budget": "6Million",
+    "boxoffice": "250Million"
+  },
+  {
+    "alt":"darkknight",
+    "movie": "The Dark Knight",
+    "rating": 9.0,
+    "synopsis":"When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "actors": ["Christian Bale", "Heath Ledger"],
+    "director": "Christopher Nolan",
+    "budget": "185Million",
+    "boxoffice": "1.006Billion"
+  },
+  {
+    "alt": "godfather2",
+    "movie": "The GodFather Part II",
+    "rating": 9.0,
+    "synopsis":"The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+    "actors": ["Al Pacino", "Robert De Niro"],
+    "budget": "13Million",
+    "boxoffice": "88Million"
+  },
+  {
+    "alt": "angry-men",
+    "movie": "12 Angry Men",
+    "rating": 9.0,
+    "synopsis": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
+    "actors":[],
+    "director": "Sidney Lumet",
+    "budget": "337Thousand",
+    "boxoffice": "2Million"
+  },
+  {
+    "alt": "schinderslist",
+    "movie": "Schinderl's List",
+    "rating": 9.0,
+    "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "actors":["Liam Neeson", "Ralph Fiennes"],
+    "director": "Steven Spielberg",
+    "budget": "22Million",
+    "boxoffice": "322.2Million"
+  },
+  {
+    "alt": "schinderslist",
+    "movie": "Schinderl's List",
+    "rating": 9.0,
+    "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "actors":["Liam Neeson", "Ralph Fiennes"],
+    "director": "Steven Spielberg",
+    "budget": "22Million",
+    "boxoffice": "322.2Million"
+  },
+  {
+    "alt": "schinderslist",
+    "movie": "Schinderl's List",
+    "rating": 9.0,
+    "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "actors":["Liam Neeson", "Ralph Fiennes"],
+    "director": "Steven Spielberg",
+    "budget": "22Million",
+    "boxoffice": "322.2Million"
+  }
+]

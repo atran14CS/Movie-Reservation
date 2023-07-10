@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Comme:wght@200&display=swap" rel="stylesheet">
+  <script src="index.js"></script>
+  <title>Movie Reservation</title>
+</head>
+<body>
+  <nav class="nav-container">
+    <h1>Reserve Movies!</h1>
+    <ul id="nav-links">
+      <li class="nav-option"><a href="login-related/login.html" id="log-in">Log In</a></li>
+      <li><a href="rate/rate.html">Rate</a></li>
+    </ul>
+  </nav>
+  <section class="search-container">
+    <form class="search-bar">
+      <input type="text" placeholder="search movie" id="search">
+      <button id="search-btn">search</button>
+    </form>
+  </section>
+  <section>
+    <button id="change-view">Change View</button>
+    <button id="log-out" class="hidden">Log Out</button>
+  </section>
+  <section class="grid-container" id="grid-view">
+    <h2>Top Movies All Time</h2>
+    <section class="img-grid">
+    <img src="img/shawshank.jpg" alt="shawshank" class="grid-item">
+    <img src="img/godfather.jpg" alt="godfather" class="grid-item">
+    <img src="img/darkknight.jpg" alt="darkknight" class="grid-item">
+    <img src="img/godfather2.jpg" alt="godfather2" class="grid-item">
+    <img src="img/angry-men.jpg" alt="angry-men" class="grid-item">
+    <img src="img/schinderslist.jpg" alt="schinderslist" class="grid-item">
+    <img src="img/lord-of-rings-king.jpg" alt="lord-of-rings-king" class="grid-item">
+    <img src="img/pulbfiction.jpg" alt="pulbfiction" class="grid-item">
+    </section>
+  </section>
+  <section class="grid-container hidden" id="list-view">
+    <h2>Top Movies All Time</h2>
+    <img src="img/shawshank.jpg" alt="shawshank" class="list-item">
+    <img src="img/godfather.jpg" alt="godfather" class="list-item">
+    <img src="img/darkknight.jpg" alt="darkknight" class="list-item">
+    <img src="img/godfather2.jpg" alt="godfather2" class="list-item">
+    <img src="img/angry-men.jpg" alt="angry-men" class="list-item">
+    <img src="img/schinderslist.jpg" alt="schinderslist" class="list-item">
+    <img src="img/lord-of-rings-king.jpg" alt="lord-of-rings-king" class="list-item">
+    <img src="img/pulbfiction.jpg" alt="pulbfiction" class="list-item">
+  </section>
+  <section id="new">
+    <h2>Newest Movies</h2>
+  </section>
+  <section id="clicked-movie">
+  </section>
+  <section id="login-page" class="hidden">
+    <h1>Login Page</h1>
+    <form action="#" method="post">
+      <p>User Name</p>
+      <input type="text" name="user" placeholder="User Name">
+      <p>Password</p>
+      <input type="passowrd" name="passowrd" placeholder="Password">
+      <button type="submit">Login</button>
+    </form>
+  </section>
+  <section id="top-info" class="hidden">
+  </section>
+  <footer>
+    <p>Stay Tune for future updates!</p>
+  </footer>
+</body>
+</html>
